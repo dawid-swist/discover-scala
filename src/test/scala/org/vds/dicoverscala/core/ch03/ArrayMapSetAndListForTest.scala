@@ -3,9 +3,9 @@ package org.vds.dicoverscala.core.ch03
 import org.scalatest.{Matchers, WordSpec}
 
 /**
- * Created by swistdaw on 2015-09-17.
+ * Tests Example of usage List, Array, tube, set and map
  */
-class ArrayListAndForTest extends WordSpec with Matchers {
+class ArrayMapSetAndListForTest extends WordSpec with Matchers {
 
   val exampleOfArray = Array(1, 2)
   "Example of Arrays usage" when {
@@ -16,11 +16,11 @@ class ArrayListAndForTest extends WordSpec with Matchers {
       }
 
       "exampleOfArray(0) return 1" in {
-        exampleOfArray(0) should equal(1);
+        exampleOfArray(0) should equal(1)
       }
 
       "exampleOfArray(1) return 2" in {
-        exampleOfArray(1) should equal(2);
+        exampleOfArray(1) should equal(2)
       }
 
       "exampleOfArray.apply(1) return that same value as exampleOfArray(1)" in {
@@ -46,7 +46,7 @@ class ArrayListAndForTest extends WordSpec with Matchers {
     "We define new list with value" + exampleOfList should {
 
       "contain One for exampleOfList(0)" in {
-        exampleOfList(0) should be("One");
+        exampleOfList(0) should be("One")
       }
 
       "has size 3" in {
