@@ -49,7 +49,7 @@ class ArrayListAndForTest extends WordSpec with Matchers {
         exampleOfList(0) should be("One");
       }
 
-      "has site 3" in {
+      "has size 3" in {
         exampleOfList.size should be(3)
       }
 
