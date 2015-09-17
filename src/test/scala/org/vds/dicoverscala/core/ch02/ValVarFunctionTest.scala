@@ -31,7 +31,7 @@ class ValVarFunctionTest extends WordSpec with Matchers {
     }
   }
 
-  "Define function" when {
+  "Function" when {
     "we define function fun(n)" should {
       "function fun return value n" in {
         def fun(n: Any): Any = {
@@ -58,7 +58,6 @@ class ValVarFunctionTest extends WordSpec with Matchers {
         val result = greet()
 
         assert(result.isInstanceOf[Unit])
-
       }
     }
 

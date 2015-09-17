@@ -1,2 +1,2 @@
 # Discover scala core
-Project status status: [![Build Status](https://travis-ci.org/dawid-swist/discover-scala.svg?branch=master)](https://travis-ci.org/dawid-swist/discover-scala) [![Codacy Badge](https://api.codacy.com/project/badge/4d1d78b4ad9a46fe8cf586c5af352c4e)](https://www.codacy.com/app/dawid-swist/discover-scala)
+Project status status: [![Build Status](https://travis-ci.org/dawid-swist/discover-scala.svg?branch=master)](https://travis-ci.org/dawid-swist/discover-scala) [![Codacy Badge](https://api.codacy.com/project/badge/a5820cdea92842dcbc6666ddb2a61904)](https://www.codacy.com/app/dawid-swist/discover-scala)
