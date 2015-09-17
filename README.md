@@ -1,0 +1,1 @@
+https://travis-ci.org/dawid-swist/discover-scala.svg?branch=master
