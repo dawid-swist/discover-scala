@@ -1,6 +1,6 @@
 package org.vds.dicoverscala.xunit
 
-import org.scalatest.{WordSpec, FlatSpec, FunSuite}
+import org.scalatest.{Matchers, WordSpec, FlatSpec, FunSuite}
 
 
 class Sum$TestWithFunSuite extends FunSuite {
@@ -33,6 +33,4 @@ class Sum$TestWithWordSpec extends WordSpec {
       }
     }
   }
-
-
 }
