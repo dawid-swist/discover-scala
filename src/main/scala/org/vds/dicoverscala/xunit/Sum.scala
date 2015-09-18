@@ -11,7 +11,5 @@ object Sum {
    * @param b second number
    * @return result of sum a and b
    */
-  def add(a: Int, b: Int): Int = {
-    return a + b;
-  }
+  def add(a: Int, b: Int): Int = a + b
 }
