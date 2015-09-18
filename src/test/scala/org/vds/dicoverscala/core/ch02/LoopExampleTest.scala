@@ -5,7 +5,7 @@ import org.scalatest.{Matchers, WordSpec}
 /**
  * Example for loop-s
  */
-class LookExampleTest extends WordSpec with Matchers {
+class LoopExampleTest extends WordSpec with Matchers {
 
 
   "Type of look" when {
