@@ -12,9 +12,9 @@ class ValVarFunctionTest extends WordSpec with Matchers {
   "val declaration" when {
     "we assigned some value" should {
       "we get the same value" in {
-        val val_1 = 1
+        val val1 = 1
         assertResult(1) {
-          val_1
+          val1
         }
       }
     }
@@ -23,10 +23,10 @@ class ValVarFunctionTest extends WordSpec with Matchers {
   "var declaration" when {
     "Change var value" should {
       "we return latest value" in {
-        var var_1 = 1
-        var_1 = 2
+        var var1 = 1
+        var1 = 2
 
-        var_1 should equal(2)
+        var1 should equal(2)
       }
     }
   }
@@ -34,9 +34,7 @@ class ValVarFunctionTest extends WordSpec with Matchers {
   "Function" when {
     "we define function fun(n)" should {
       "function fun return value n" in {
-        def fun(n: Any): Any = {
-          n
-        }
+        def fun(n: Any): Any = n
 
         fun("some Value") should equal("some Value")
       }

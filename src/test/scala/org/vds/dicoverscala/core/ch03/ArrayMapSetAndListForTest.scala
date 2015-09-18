@@ -29,14 +29,14 @@ class ArrayMapSetAndListForTest extends WordSpec with Matchers {
 
       "method exampleOfArray.update(0,3) should be has the same results as exampleOfArray(0)=3" in {
 
-        val copyArray_1 = exampleOfArray.clone();
-        val copyArray_2 = exampleOfArray.clone();
+        val copyArray1 = exampleOfArray.clone();
+        val copyArray2 = exampleOfArray.clone();
 
-        copyArray_1(0) = 3;
-        copyArray_1 should not equal (copyArray_2);
-        copyArray_2.update(0, 3)
+        copyArray1(0) = 3;
+        copyArray1 should not equal (copyArray2);
+        copyArray2.update(0, 3)
 
-        copyArray_1 should equal(copyArray_1)
+        copyArray1 should equal(copyArray1)
       }
     }
   }
