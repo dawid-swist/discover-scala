@@ -7,7 +7,6 @@ import org.scalatest.{Matchers, WordSpec}
  */
 class LoopExampleTest extends WordSpec with Matchers {
 
-
   "Type of look" when {
     "We use while loop" should {
 
