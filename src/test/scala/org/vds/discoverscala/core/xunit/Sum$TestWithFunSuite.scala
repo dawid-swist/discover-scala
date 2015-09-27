@@ -1,4 +1,4 @@
-package org.vds.dicoverscala.xunit
+package org.vds.discoverscala.core.xunit
 
 import org.scalatest.{Matchers, WordSpec, FlatSpec, FunSuite}
 

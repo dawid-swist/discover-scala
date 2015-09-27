@@ -1,4 +1,4 @@
-package org.vds.dicoverscala.core.ch05
+package org.vds.discoverscala.core.ch05
 
 import org.scalatest.{Matchers, WordSpec}
 

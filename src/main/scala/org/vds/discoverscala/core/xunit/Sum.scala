@@ -1,5 +1,4 @@
-package org.vds.dicoverscala.xunit
-
+package org.vds.discoverscala.core.xunit
 
 /**
  * Example of object. Object can sum
