@@ -30,7 +30,6 @@ class Rational(n: Int, d: Int) {
 
   def canEqual(other: Any): Boolean = other.isInstanceOf[Rational]
 
-
   override def equals(other: Any): Boolean = other match {
     case that: Rational =>
       (that canEqual this) &&
