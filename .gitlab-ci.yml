@@ -13,3 +13,4 @@ before_script:
 test:
   script:
     - sbt clean test
+    - cd Coursera/Progfun1/Week1/ && sbt clean test
