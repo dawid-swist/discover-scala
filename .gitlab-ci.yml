@@ -14,6 +14,3 @@ test:
   script:
     - sbt clean test
     - cd Coursera/Progfun1/Week1/ && sbt clean test
-    - cd.. && cd Week1-1/ && sbt clean test
-    - cd.. && cd Week2/ && sbt clean test
-    - cd.. && cd Week3/ && sbt clean test
